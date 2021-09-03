@@ -23,10 +23,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-PRODUCT_DEVICE := RMX2020
-PRODUCT_NAME := twrp_RMX2020
+PRODUCT_DEVICE := RMX3171
+PRODUCT_NAME := twrp_RMX3171
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := RMX2020
+PRODUCT_MODEL := RMX3171
 PRODUCT_MANUFACTURER := realme
 
 # Dynamic
